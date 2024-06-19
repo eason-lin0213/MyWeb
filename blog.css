@@ -1,5 +1,57 @@
 /* stylelint-disable stylistic/selector-list-comma-newline-after */
 
+
+.navbar{
+  position: fixed;
+  top:0px;
+  left:0px;
+  right:0;
+  background-color: rgb(157, 154, 148);
+  backdrop-filter: blur(300px);
+  z-index: 10;
+}
+
+
+.navbar-list{
+    display: flex;
+    list-style: none;
+}
+
+.d-flex{
+  display: flex;
+}
+
+/*在導覽列加中間空間*/
+.justify-content-between{
+  justify-content: space-between;
+}
+
+.list-item{
+  &:hover, &.active {
+    color: blue;
+  }
+}
+
+
+.justify-content-center{
+  justify-content: center;
+}
+
+.align-items-center{
+  align-items: center;
+}
+
+.p-relative{
+  position: relative;
+}
+
+.p-absolute{
+  position: absolute;
+}
+
+
+
+
 .blog-header-logo {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
   font-size: 2.25rem;

@@ -1,5 +1,56 @@
 /* stylelint-disable stylistic/selector-list-comma-newline-after */
 
+
+.navbar{
+  position: fixed;
+  top:0px;
+  left:0px;
+  right:0;
+  background-color: orange;
+  backdrop-filter: blur(300px);
+  z-index: 10;
+}
+
+
+.navbar-list{
+    display: flex;
+    list-style: none;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.list-item{
+  &:hover, &.active {
+    color: blue;
+  }
+}
+
+
+/*在導覽列加中間空間*/
+.justify-content-between{
+  justify-content: space-between;
+}
+
+.justify-content-center{
+  justify-content: center;
+}
+.align-items-center{
+  align-items: center;
+}
+
+.p-relative{
+  position: relative;
+}
+
+.p-absolute{
+  position: absolute;
+}
+
+
+
+
 .blog-header-logo {
   font-family: Amiri, Georgia, "Times New Roman", serif;
   font-size: 2.25rem;
